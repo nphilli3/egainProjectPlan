@@ -1,0 +1,207 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+#iot{
+  margin: 0 0 20px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+.card-body,#jumbocard{
+  flex: none;
+  padding: 1px;
+}
+
+header .row,
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+#cardlinkStyle,#cardlinkStyle:hover{
+  color:#000;
+  text-decoration: none;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.carimg {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+#superjumbo.myjumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('images/raspberry-pi-wallpaper.png');
+  background-size: cover;
+  color: white;
+  height: 50vh;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin-bottom: 0;
+  padding-bottom: 1px;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  color: red;
+}
+
+.jumbotron h3 {
+  border-width: medium thin;
+  margin: 0 0 20px;
+  color: white;
+}
+.jumbobutton {
+  float: none;
+  margin: 0;
+  margin-botom: 0;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+#team-pic {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+#teamTitle{
+  flex: 1;
+  justifyContent: 'center';
+  alignItems: 'center';
+}
+
+#spacer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top:10 px;
+  margin-bottom: 300px;
+}
+
+#suggestion {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#save{
+  padding-top: 10px;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: grey;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+#myCard{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#navitem:hover{
+  background-color: #ffffff; 
+
+}
+#teambutton{
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  display: block;
+  border: none;
+  margin-bottom: 0;
+
+}
+#teambutton:hover{
+
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #6c757d;
+  display: block;
+  border: none;
+}
+
+#dropbutton{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  display: block;
+  border: none;
+  margin-bottom: 0;
+
+}
+
+#dropbutton:hover{
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #6c757d;
+  display: block;
+  border: none;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
